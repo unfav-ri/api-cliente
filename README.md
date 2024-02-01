@@ -11,10 +11,10 @@ Data Base - Localhost:3000 - schema: db_clientes - Tabelas: cliente (id, nome_cl
 
 Utilizo o [resttesttest.com](https://resttesttest.com/ "request test") como ferramenta para teste
 
-GET: router.get("/clientes", ClienteController.buscarTodos);
-GET: router.get("/cliente/:id", ClienteController.buscarUm);
-POST: router.post('/cliente', ClienteController.inserirCliente);
-PUT: router.put('/cliente/:id', ClienteController.alterar);
+GET: router.get("/clientes", ClienteController.buscarTodos);</br>
+GET: router.get("/cliente/:id", ClienteController.buscarUm);</br>
+POST: router.post('/cliente', ClienteController.inserirCliente);</br>
+PUT: router.put('/cliente/:id', ClienteController.alterar);</br>
 DELETE: router.delete('/cliente/:id',ClienteController.excluir);
 
 Add parameter - Parameter Name (dado solicitado) / Parameter Value (valor solicitado)
